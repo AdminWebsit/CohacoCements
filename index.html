@@ -70,60 +70,6 @@
                     display: none;
                 }
         }
-footer{
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: #111;
-        height: auto;
-        width: 100vw;
-        padding-top: 40px;
-        color: #fff;
-    }
-
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-.footer-content h3{
-    font-size: 2.1rem;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-.socials{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-}
-
-.socials li{
-    margin: 0 10px;
-}
-
-.socials a{
-    text-decoration: none;
-    color: #fff;
-    border: 1.1px solid white;
-    padding: 5px;
-    border-radius: 50%;
-}
-
-.socials a i{
-    font-size: 1.1rem;
-    width: 20px;
-    transition: color .4s ease;
-}
-
-.socials a:hover i{
-    color: aqua;
-}
         /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
@@ -310,18 +256,98 @@ iPad 3
             </div>
         </div>
     </header>
-    <footer>
-        <div class="footer-content">
-            <h3>Cohaco Merchandising</h3>
-            <p>Cohaco Merchandising & Devt Corp is a wholesaler of construction materials and importer of Portland Cement nationwide.</p>
-            <ul class="socials">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-            </ul>
+    
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+
+  <footer class="bg-primary text-center text-lg-start text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row my-4">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <div class="shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+            <img src="logos/COHACO-bw-f.png" height="70" alt=""
+                 loading="lazy" />
+          </div>
         </div>
-    </footer>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Quick Links</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Home</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Products</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Projects</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Contacts</a>
+            </li>
+
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Affiliate Companies</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="http://www.cebuoversea.com/" class="text-white"><i class="fas fa-paw pe-3"></i>Cebu Oversea</a>
+            </li>
+            <li class="mb-2">
+              <a href="https://www.cwhomedepot.com/" class="text-white"><i class="fas fa-paw pe-3"></i>CW Home Depot</a>
+            </li>
+            <li class="mb-2">
+              <a href="http://sinisianportandindustrialpark.com/" class="text-white"><i class="fas fa-paw pe-3"></i>Sinisian Lemery Port</a>
+              </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">CONNECT WITH US ON FACEBOOK</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://www.facebook.com/Cohaco-Merchandising-Devt-Corp-101731208248649/" class="text-white"><i class="fas fa-paw pe-3"></i>D Cohaco Merchandising</a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/NGC-Land-Corp-109973747415146" class="text-white"><i class="fas fa-paw pe-3"></i>NGC Land Corp.</a>
+            </li>
+            <li>
+             <a href="https://www.facebook.com/Kaito-Portland-Cement-110922173987355" class="text-white"><i class="fas fa-paw pe-3"></i>Kaito Portland Cement</a>
+            </li>
+            <li>
+             <a href="https://www.facebook.com/Barako-Portland-cement-110541737359244" class="text-white"><i class="fas fa-paw pe-3"></i>Barako Portland Cement</a>
+            </li>  
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2022 Copyright:
+      <a class="text-white" href="#">COHACO</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+</div>
 </body>
 </html>
