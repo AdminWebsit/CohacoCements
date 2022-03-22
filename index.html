@@ -56,7 +56,7 @@
                 opacity: 0.5;
                 z-index: 1;
             }
-
+   
         /* Media Query for devices withi coarse pointers and no hover functionality */
 
         /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
@@ -70,6 +70,60 @@
                     display: none;
                 }
         }
+footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #111;
+        height: auto;
+        width: 100vw;
+        padding-top: 40px;
+        color: #fff;
+    }
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
         /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
@@ -256,9 +310,17 @@ iPad 3
             </div>
         </div>
     </header>
-    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
-        <div class="container text-center">
-            <small>Copyright &copy; COHACO</small>
+    <footer>
+        <div class="footer-content">
+            <h3>Cohaco Merchandising</h3>
+            <p>Cohaco Merchandising & Devt Corp is a wholesaler of construction materials and importer of Portland Cement nationwide.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
         </div>
     </footer>
 </body>
