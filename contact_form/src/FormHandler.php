@@ -62,15 +62,15 @@ class FormHandler
 	 * @param  string/array $email_s one or more emails. If more than one emails, pass the emails as array
 	 * @return The form handler object itself so that the methods can be chained
 	 */
-	public function sendEmailTo($email_s)
+	public function sendEmailTo('noelliangco15@gmail.com')
 	{
-		if(is_array($email_s))
+		if(is_array('noelliangco15@gmail.com'))
 		{
-			$this->emails =array_merge($this->emails, $email_s);
+			$this->emails =array_merge($this->emails, 'noelliangco15@gmail.com');
 		}
 		else
 		{
-			$this->emails[] = $email_s;	
+			$this->emails[] = 'noelliangco15@gmail.com';	
 		}
 		
 		return $this;
