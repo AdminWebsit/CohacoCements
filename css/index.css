@@ -20,6 +20,7 @@ header {
 }
 
     header video {
+        background-size: contain;
         position: absolute;
         top: 70%;
         left: 50%;
