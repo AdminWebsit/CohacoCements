@@ -10,37 +10,12 @@
     width: 55%;
 }
 
-li a.cart:hover {
-    text-decoration: none;
-    color: #d60e96;
-}
-
-li a.cart .cart-basket {
-    font-size: .6rem;
-    position: absolute;
-    top: -6px;
-    right: -5px;
-    width: 15px;
-    height: 15px;
-    color: #fff;
-    background-color: #418deb;
-    border-radius: 50%;
-}
-
-.cart {
-    color: black;
-}
-
-#shop_cart {
-    padding-top: 2%;
-}
-
 header {
     position: relative;
     background-color: black;
-    height: 50vh;
+    height: 80vh;
     min-height: 25rem;
-    width: 100%;
+    width: 50%;
     overflow: hidden;
 }
 
